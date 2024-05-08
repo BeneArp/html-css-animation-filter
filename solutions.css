@@ -58,7 +58,15 @@
     filter: grayscale(100%);
 }
 
+/* esercizio 7 */
+/* filtri con cambio graduale */
+.ex-7-img{
+    transition: all 1s;
+}
 
+.ex-7-img:hover{
+    filter: contrast(2) saturate(0.5);
+}
 
 /* esercizio 8 */
 /* due filtri e bordi arrotondati */
@@ -68,5 +76,5 @@
 
 .ex-8-img:hover{
     border-radius: 20px;
-    filter: grayscale(40%) saturate(50%);
+    filter: grayscale(0.5) saturate(1.5);
 }
