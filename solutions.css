@@ -1,0 +1,10 @@
+/* eserccizio 1 */
+/* cambio colore sfondo graduale */
+.ex-1-square{
+    transition: background-color 2s;
+}
+
+.ex-1-square:hover{
+    background-color: red;
+}
+
