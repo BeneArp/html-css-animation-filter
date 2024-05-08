@@ -132,3 +132,46 @@
         transform: rotate(0);
     }
 }
+
+/* esercizio 12 */
+/* movimento laterale per animare il "bordo" */
+.ex-12-button:hover .ex-12-top-white{
+    animation-name: side-right;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation-name: side-left;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes side-right {
+    0%{
+        transform: translateX(0);
+    }
+
+    50%{
+        transform: translateX(100px);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes side-left {
+    0%{
+        transform: translateX(0);
+    }
+
+    50%{
+        transform: translateX(-90px);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+    
+}
