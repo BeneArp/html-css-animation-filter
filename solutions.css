@@ -58,3 +58,15 @@
     filter: grayscale(100%);
 }
 
+
+
+/* esercizio 8 */
+/* due filtri e bordi arrotondati */
+.ex-8-img{
+    transition: all 1s;
+}
+
+.ex-8-img:hover{
+    border-radius: 20px;
+    filter: grayscale(40%) saturate(50%);
+}
