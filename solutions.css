@@ -175,3 +175,69 @@
     }
     
 }
+
+/* esercizio 13 */
+/* giro completo "bordo" */
+.ex-13-button:hover .ex-13-top-white{
+    animation-name: complete-left;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+.ex-13-button:hover .ex-13-bottom-white{
+    animation-name: complete-right;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes complete-left {
+    0%{
+        transform: translateX(0);
+    }
+
+    30%{
+        transform: translateX(120px);
+    }
+
+    50%{
+        transform: translateX(120px) translateY(60px);
+    }
+
+    80%{
+        transform: translateX(-40px) translateY(60px);
+    }
+    
+    95%{
+       transform: translateX(-40px) translateY(0); 
+    }
+
+    100%{
+        transform: translateX(0) translateY(0);
+    }
+}
+
+@keyframes complete-right {
+    0%{
+        transform: translateX(0);
+    }
+
+    30%{
+        transform: translateX(-120px);
+    }
+
+    50%{
+        transform: translateX(-120px) translateY(-60px);
+    }
+
+    80%{
+        transform: translateX(40px) translateY(-60px);
+    }
+    
+    95%{
+       transform: translateX(40px) translateY(0); 
+    }
+
+    100%{
+        transform: translateX(0) translateY(0);
+    }
+}
