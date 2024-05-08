@@ -199,15 +199,15 @@
         transform: translateX(120px);
     }
 
-    50%{
+    45%{
         transform: translateX(120px) translateY(60px);
     }
 
-    80%{
+    75%{
         transform: translateX(-40px) translateY(60px);
     }
     
-    95%{
+    90%{
        transform: translateX(-40px) translateY(0); 
     }
 
@@ -225,16 +225,16 @@
         transform: translateX(-120px);
     }
 
-    50%{
-        transform: translateX(-120px) translateY(-60px);
+    45%{
+        transform: translateX(-120px) translateY(-70px);
     }
 
-    80%{
-        transform: translateX(40px) translateY(-60px);
+    75%{
+        transform: translateX(60px) translateY(-70px);
     }
     
-    95%{
-       transform: translateX(40px) translateY(0); 
+    90%{
+       transform: translateX(60px) translateY(0); 
     }
 
     100%{
